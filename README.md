@@ -1,4 +1,4 @@
-# Note7_TV
+# AutoDeck
 
 [AutoDeck](AutoDeck/) 是 Redmi Note 7（Android 16 / KernelSU）的 DisplayLink OTG 自动化模块。手机通过 OTG 连接 DisplayLink 扩展坞，扩展坞再通过 HDMI 连接显示器。视频输出由 DisplayLink Presenter 提供。模块在检测到扩展坞和有效镜像后启动配置的应用、临时切换默认启动器，并支持可选的 Android 镜像源尺寸和限时关屏。
 
@@ -15,7 +15,7 @@ git init -b main
 git add -- .gitattributes .gitignore README.md AutoDeck
 git commit -m "Add AutoDeck USB display relay"
 gh auth login
-gh repo create Note7_TV --public --source=. --remote=origin
+gh repo create AutoDeck --public --source=. --remote=origin
 git push -u origin main
 ```
 
